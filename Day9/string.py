@@ -8,3 +8,8 @@ print(msg1)
 
 
 print("peter" in msg)
+
+
+name = "TERRY"
+color = "Red"
+msg2 = '[' 
