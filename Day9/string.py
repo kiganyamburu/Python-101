@@ -5,3 +5,6 @@ print(msg.replace("peter", "john"))
 
 msg1 = msg.replace("peter", "Alexander")
 print(msg1)
+
+
+print("peter" in msg)
