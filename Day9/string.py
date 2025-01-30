@@ -12,4 +12,4 @@ print("peter" in msg)
 
 name = "TERRY"
 color = "Red"
-msg2 = '[' 
+msg2 = '[' + name + '] loves the color ' + color
