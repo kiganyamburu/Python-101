@@ -12,5 +12,5 @@ print("peter" in msg)
 
 name = "TERRY"
 color = "Red"
-msg2 = '[' + name + '] loves the color ' + color + ' !'
+msg2 = '[' + name + '] loves the color ' + color + ' ! '
 print(msg2)
