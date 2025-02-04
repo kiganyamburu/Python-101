@@ -3,3 +3,6 @@ cars = [911, 130,328, 535, 740, 308]
 print(friends)
 friends.sort()
 print(friends)
+# print(cars)
+# cars.sort()
+# print(cars)
