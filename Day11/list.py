@@ -19,3 +19,5 @@ print(friends)
 friends.insert(1, "Jim")
 
 print(friends)
+
+friends.sort()
