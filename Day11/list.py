@@ -13,3 +13,9 @@ print(sum(cars))
 
 # cars.sort()
 # print(cars)
+
+friends.append("Terry")
+print(friends)
+friends.insert(1, "Jim")
+
+print(friends)
