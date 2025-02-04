@@ -21,3 +21,8 @@ friends.insert(1, "Jim")
 print(friends)
 
 friends.sort()
+
+
+fruits = ["mangoes", "bananas", "apples"]
+fruits.append("avocado")
+print(fruits)
