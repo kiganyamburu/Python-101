@@ -26,3 +26,6 @@ friends.sort()
 fruits = ["mangoes", "bananas", "apples"]
 fruits.append("avocado")
 print(fruits)
+
+for avocado in fruits:
+    print(avocado)
