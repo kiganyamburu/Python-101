@@ -32,6 +32,7 @@ for avocado in fruits:
 
 
 #  coping a list
-room = ["table", "chair", "bed", "wardrobe"]
-new_room = room.copy()
-print(new_room)
+friends = ["table", "chair", "bed", "wardrobe"]
+new_friends = friends.copy
+print(friends)
+print(new_friends)
