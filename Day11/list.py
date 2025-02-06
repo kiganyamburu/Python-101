@@ -29,3 +29,9 @@ print(fruits)
 
 for avocado in fruits:
     print(avocado)
+
+
+#  coping a list
+room = ["table", "chair", "bed", "wardrobe"]
+new_room = room.copy()
+print(new_room)
