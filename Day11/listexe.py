@@ -9,7 +9,7 @@ sales_week2.append(int(new_day))
 sales = sales_week1 + sales_week2
 sales.sort()
 worst_day_prof = sales[0] * 1.5
-best_day_prof = sales[0] * 1.5
+best_day_prof = sales[-1] * 1.5
 print(f"worst day profit:${worst_day_prof}")
 print(f"best day profit:${best_day_prof}")
 print(f"worst day profit:${worst_day_prof + best_day_prof}")
