@@ -23,5 +23,8 @@ print(friends.difference(my_friends))
 result = friends ^ my_friends
 print("symmetric difference(^):", result)
 
+new_set = friends | my_friends
+print(new_set)
+
 
 
