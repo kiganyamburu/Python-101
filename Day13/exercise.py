@@ -10,3 +10,8 @@
 friends = {'John','Michael','Terry','Eric','Graham'}
 my_friends = {'Reg','Loretta','Colin','John','Graham'}
 cars =['900','420','V70','911','996','V90','911','911','S','328','900']
+
+if {"Eric", "John"} <= friends:
+    print("Both Eric and John are in my friends set")
+else:
+    print("Both Eric and John are not in my friends set")
