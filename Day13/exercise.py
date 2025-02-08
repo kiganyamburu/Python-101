@@ -20,3 +20,8 @@ print(friends.union(my_friends))
 print(friends.intersection(my_friends))
 print(friends.difference(my_friends))
 
+result = friends ^ my_friends
+print("symmetric difference(^):", result)
+
+
+
