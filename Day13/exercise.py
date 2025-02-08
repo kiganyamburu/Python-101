@@ -15,3 +15,8 @@ if {"Eric", "John"} <= friends:
     print("Both Eric and John are in my friends set")
 else:
     print("Both Eric and John are not in my friends set")
+    
+print(friends.union(my_friends))
+print(friends.intersection(my_friends))
+print(friends.difference(my_friends))
+
