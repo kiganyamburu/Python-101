@@ -4,4 +4,4 @@
 
 friends_set = {"John", "Michael", "Terry","Eric", "Graham"}
 my_friends_set = {"Reg", "loretta", "Colin", "Graham", "Eric"}
-print(friends_set.intersection(my_friends_set))
+print(friends_set.difference(my_friends_set))
