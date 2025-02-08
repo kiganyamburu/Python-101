@@ -3,5 +3,5 @@
 
 
 friends_set = {"John", "Michael", "Terry","Eric", "Graham"}
-my_friends_set = {"Reg", "loretta", "Colin", "Graham"}
-print(my_friends_set.intersection(my_friends_set))
+my_friends_set = {"Reg", "loretta", "Colin", "Graham", "Eric"}
+print(friends_set.intersection(my_friends_set))
