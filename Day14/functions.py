@@ -3,7 +3,8 @@
 # above where you are going to use them.
 # A parameter in function is something like a variable 
 
-def greeting(name):
-    print("hello" + name + "!")
+def greeting(name, age):
+    print("hello " + name + "your are " + age + "!")
+    print(f"Hello {name}, your are {age}!")
     
-greeting("Peter")      
+greeting("Peter", "32")      
