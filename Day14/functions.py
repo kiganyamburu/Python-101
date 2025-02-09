@@ -3,10 +3,10 @@
 # above where you are going to use them.
 # A parameter in function is something like a variable 
 
-def greeting(name, age = "28"):
+def greeting(name, age = 28):
     print(f"Hello {name}, your are {age}!")
     
 
 name = input("Enter your name: ")   
-greeting(name, "32")      
+greeting(name, 32)      
 greeting("judith")      
