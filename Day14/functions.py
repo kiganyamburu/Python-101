@@ -3,8 +3,10 @@
 # above where you are going to use them.
 # A parameter in function is something like a variable 
 
-def greeting(name, age):
-    print("hello " + name + "your are " + age + "!")
+def greeting(name, age = "28"):
     print(f"Hello {name}, your are {age}!")
     
-greeting("Peter", "32")      
+
+name = input("Enter your name")   
+greeting("name", "32")      
+greeting("judith",)      
