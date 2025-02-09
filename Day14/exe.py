@@ -2,7 +2,7 @@ def greeting(name, age=28,):
     #Greets user with 'name' from 'input box' and 'age', if available, default age is used
     print('Hello '  +  name + ', you are ' + str(age) +'!')
     print(f'Hello {name}, you are {age}!')
-    print("We hear you like the color xxx! xxx is a string with color")
+    print(f"We hear you like the color {color} is a string with color")
 
 name = input('Enter your name: ')
 age = input('Enter your age: ')
