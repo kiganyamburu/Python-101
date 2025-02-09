@@ -7,6 +7,6 @@ def greeting(name, age = "28"):
     print(f"Hello {name}, your are {age}!")
     
 
-name = input("Enter your name")   
-greeting("name", "32")      
-greeting("judith",)      
+name = input("Enter your name: ")   
+greeting(name, "32")      
+greeting("judith")      
