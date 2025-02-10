@@ -1,11 +1,4 @@
-num1 = 4
-num2 = 2
-sum = num1 + num2
-subtract = num1 - num2
-multiply = num1 + num2
-divide = num1 + num2
-modulus = num1 % num2
-print(modulus)
+
 
 
 
