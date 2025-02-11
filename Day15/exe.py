@@ -1,7 +1,4 @@
 def calc(num1, num2, mode):
-    num1 = 3
-    num2 = 3
-    mode = "+", "-", "/", "*", "c2f"
     if mode == "+":
         return num1 + num2
     elif mode == "-":
@@ -17,14 +14,13 @@ def calc(num1, num2, mode):
     else:
         return "Invalid mode"
     
-    num1 = float(input("Enter num1" ))
-    num2 = float(input("Enter num2" ))
+    num1 = float(input("Enter num1: " ))
+    num2 = float(input("Enter num2: " ))
     mode = input("Enter the operation(+, -, *, /, c2f):")
     
     result = calculator(num1, num2, mode)
     print("Result:", result)
-    
-calc()
+    ca
 
 
 
