@@ -19,7 +19,7 @@ def calc(num1, num2, mode):
     
     num1 = float(input("Enter num1" ))
     num2 = float(input("Enter num2" ))
-    num = float(input("Enter num2" ))
+    mode = input("Enter the operation(+, -, *, /, c2f):")
     
 calc(3, 3, "+")
 
