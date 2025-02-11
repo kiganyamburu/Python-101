@@ -1,7 +1,7 @@
 def num_days(month):
 
     if month == 'jan':
-        print('number of days in',month,'is',31)
+        print(f'number of days in',{month},'is',31)
     elif month == 'feb':
         print('number of days in',month,'is',28)
     elif month == 'mar':
