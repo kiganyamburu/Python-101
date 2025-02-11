@@ -18,7 +18,7 @@ def calc(num1, num2, mode):
         return "Invalid mode"
     
     num1 = float(input("Enter num1" ))
-    num1 = float(input("Enter num2" ))
+    num2 = float(input("Enter num2" ))
     num = float(input("Enter num2" ))
     
 calc(3, 3, "+")
