@@ -2,7 +2,7 @@ def calc():
     num1 = int(input("Enter num1: "))
     num2 = int(input("Enter num2: "))
     additional =  num1 + num2
-    print(f"The sum of num1 and num2 is {additional}")
+    print(f"The sum is {additional}")
 calc()
     
 
