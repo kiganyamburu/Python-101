@@ -22,6 +22,7 @@ def calc(num1, num2, mode):
     mode = input("Enter the operation(+, -, *, /, c2f):")
     
     result = calculator(num1, num2, mode)
+    print("Result:", result)
     
 calc()
 
