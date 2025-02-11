@@ -14,13 +14,16 @@ def calculator(num1, num2, mode):
     else:
         return "Invalid mode"
     
+try:
     num1 = float(input("Enter num1: "))
     num2 = float(input("Enter num2: "))
-    mode = input("Enter the operation(+, -, *, /, c2f): ")
-    
+    mode = input("Enter the operation (+, -, *, /, c2f): ")
+
     result = calculator(num1, num2, mode)
     print("Result:", result)
-    
+except ValueError:
+    print("Error: Please enter valid numbers.")
+
 
 
 
