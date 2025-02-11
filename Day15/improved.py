@@ -3,7 +3,7 @@ def num_days(month):
     if (
         month == "jan"
         or month == "mar"
-        or month == "may"
+        or month == "oct"
         or month == "may"
         or month == "jul"
         or month == "nov"
@@ -19,6 +19,6 @@ def num_days(month):
         print(f"number of days in {month} is 28")
 
 
-num_days("feb")
+num_days("oct")
 # optimize/shorten the code in the function
 # try to reduce the number of conditionals
