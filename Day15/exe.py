@@ -1,10 +1,26 @@
-def calc():
-    num1 = int(input("Enter num1: "))
-    num2 = int(input("Enter num2: "))
-    additional =  num1 + num2
-    print(f"The sum is {additional}")
-calc()
+def calc(num1, num2, mode):
+    num1 = 3
+    num2 = 3
+    mode = "+", "-", "/", "*", "c2f"
+    if mode == "+":
+        return num1 + num2
+    elif mode == "-":
+        return num1 - num2
+    elif mode == "/":
+        if num2 / 0:
+            return "Error: Divisible by zero"
+        return num1 / num2
+    elif mode == "*":
+        return num1 * num2
+    elif mode == "c2f":
+        return (num1 * 9/5) + 32
+    else:
+        return "Invalid mode"
     
+    num1 = float(in)
+    
+calc(3, 3, "+")
+
 
 
 
