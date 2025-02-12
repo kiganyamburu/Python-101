@@ -26,3 +26,15 @@ life_of_brian = {
 print("Arthur" in holy_grail)
 if "Arthur" not in python:
     print("He's not here")
+    
+# concatenating dictionary
+people = {}
+people1 = {}
+people2 = {}
+
+# first method is the update method
+people.update(python)
+print(people)
+
+
+
