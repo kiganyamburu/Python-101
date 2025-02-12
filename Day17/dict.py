@@ -36,5 +36,10 @@ people2 = {}
 people.update(python)
 print(people)
 
+# the second method is the comprehension
+
+for groups in(python,holy_grail, life_of_brian): people.update(groups)
+print(people)
+
 
 
