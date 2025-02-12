@@ -14,6 +14,8 @@ movie = {
     "genre": "Action",
     "cast": ["Peter", "John", "Erich", "george", "Terry"],
 }
+for key, value in movie.items():
+    print(key, value)
 
-print(movie.get("genre"))
+print(movie.get("genre", "not found"))
 # get method is for getting key form the dictionary
