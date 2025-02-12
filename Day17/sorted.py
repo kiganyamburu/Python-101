@@ -4,3 +4,5 @@ my_tuple = ("d", "c", "e", "a", "b")
 my_string = "python"
 
 # both tuple and string are immutable meaning they cant be modified
+
+# both list and dict are immutable meaning the can be modified
