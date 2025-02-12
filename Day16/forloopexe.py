@@ -6,8 +6,8 @@ names1 = ["graHam chapman", "TERRY", "terry jones"]
 new_list = names + names1
 
 for _ in range(2):
-    new_list = input("Enter a name: ")
-    new_list.append(new_list)
+    new_name = input("Enter a name: ")
+    new_list.append(new_name)
 
     for name in new_list:
         formatted_name = name.title()
