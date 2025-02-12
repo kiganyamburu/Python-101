@@ -13,3 +13,8 @@ for name in [
     "George",
 ]:
     print(name)
+
+# working on a list of names
+friends = ["kim", "John", "Joy", "dan"]
+for index in range(len(friends)):
+    print(friends[index])
