@@ -29,3 +29,13 @@ for friend in friends:
     print(friend)
 
 print("For Loop done!")
+
+# continue
+friends = ["John", "Terry", "Eric", "Michael", "George"]
+for friend in friends:
+    if friend == "Eric":
+        print("Found" + friend + "!")
+        continue
+    print(friend)
+
+print("For Loop done!")
