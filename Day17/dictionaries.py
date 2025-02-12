@@ -16,3 +16,4 @@ movie = {
 }
 
 print(movie.get("genre"))
+# get method is for getting key form the dictionary
