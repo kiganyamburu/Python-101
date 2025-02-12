@@ -24,3 +24,5 @@ life_of_brian = {
 # dictionary are key sensitive and
 # dictionary are unordered and can have duplicate values but not keys.
 print("Arthur" in holy_grail)
+if "Arthur" not in python:
+    print("He's not here")
