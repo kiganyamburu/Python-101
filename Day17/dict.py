@@ -21,3 +21,6 @@ life_of_brian = {
     "Biccus Diccus": 45
 }
 
+# dictionary are key sensitive and
+# dictionary are unordered and can have duplicate values but not keys.
+print("Arthur" in holy_grail)
