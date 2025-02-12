@@ -18,3 +18,14 @@ for name in [
 friends = ["kim", "John", "Joy", "dan"]
 for index in range(len(friends)):
     print(friends[index])
+
+
+#  Break out of
+friends = ["John", "Terry", "Eric", "Michael", "George"]
+for friend in friends:
+    if friend == "Eric":
+        print("Found" + friend + "!")
+        break
+    print(friend)
+
+print("For Loop done!")
