@@ -46,4 +46,5 @@ print(people)
 people2 = {**python, **holy_grail, **life_of_brian}
 
 print(sorted(people2.items()))
+print("The sum of the age: ", sum(people.values()))
 
