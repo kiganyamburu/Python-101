@@ -42,6 +42,6 @@ for groups in(python,holy_grail, life_of_brian): people.update(groups)
 print(people)
 
 
-# the third me
-
+# the third method is unpacking
+people2 = {**python, **holy_grail, **life_of_brian}
 
