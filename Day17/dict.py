@@ -45,3 +45,5 @@ print(people)
 # the third method is unpacking
 people2 = {**python, **holy_grail, **life_of_brian}
 
+print(sorted(people2.items()))
+
