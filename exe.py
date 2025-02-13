@@ -10,23 +10,66 @@
 # as in all games there is a special way to do this that actually makes money and solves the problem...can you find 'them'? Do you know why? May require knowledge of actual python 'lore'
 
 #create stores
-freelancers = {'name':'freelancing Shop','brian': 70, 'black knight':20, 'biccus diccus':100, 'grim reaper':500, 'minstrel':-15}
-antiques = {'name':'Antique Shop','french castle':400, 'wooden grail':3, 'scythe':150, 'catapult':75, 'german joke':5}
-pet_shop = {'name':'Pet Shop','blue parrot':10, 'white rabbit':5, 'newt': 2}
+stores = [
+    {'name': 'Freelancing Shop', 'brian': 70, 'black knight': 20, 'biccus diccus': 100, 'grim reaper': 500, 'minstrel': -15},
+    {'name': 'Antique Shop', 'french castle': 400, 'wooden grail': 3, 'scythe': 150, 'catapult': 75, 'german joke': 5},
+    {'name': 'Pet Shop', 'blue parrot': 10, 'white rabbit': 5, 'newt': 2}
+]
 
+gold = 1000  # Player's starting gold
+inventory = []  # Player's collected items
 
+def print_inventory():
+    """Prints the current inventory of all stores combined."""
+    print("\nCurrent Store Inventory:")
+    department_store = {}
+    for store in stores:
+        for item, price in store.items():
+            if item != 'name':
+                department_store[item] = department_store.get(item, 0) + 1
+    for item, count in department_store.items():
+        print(f"{item}: {count} left")
 
-
-
-
-#create an empty shopping cart
-cart = {}
-#loop through stores/dicts
-
-for i in freelancers:
-    #inputbox  to show what you can buy...capture textstring of what was bought...make lowercase
+def shopping():
+    global gold
+    print_inventory()
     
-    buy_item = input(f'Welcome to {freelancers}! what do you want to buy: {"black knight", "grim reaper"}')
-    #update the cart
-    cart.update({insert KEYVAL:VALUE}) # use pop...
-print(f'You Purchased {ITEMS PUCHASED} Today it is all free. Have a nice day of mayhem!')
+    for store in stores:
+        print(f"\nYou have entered {store['name']}. You have {gold} gold pieces.")
+        while True:
+            print("Available items:")
+            for item, price in store.items():
+                if item != 'name':
+                    print(f"{item}: {price} gold")
+            
+            choice = input("What do you want to buy? (type 'exit' to leave): ").strip().lower()
+            
+            if choice == 'exit':
+                break
+            elif choice in store and store[choice] <= gold:
+                gold -= store[choice]
+                inventory.append(choice)
+                del store[choice]  # Remove item from store
+                print(f"You bought {choice}! Remaining gold: {gold}")
+                break  # Move to the next store
+            else:
+                print("Invalid choice or not enough gold! Moving to the next store...")
+                break  # Move to the next store if item doesn't exist or can't be bought
+
+    print("\nShopping completed!")
+    print(f"Items collected: {inventory}")
+    print(f"Gold left: {gold}")
+    print_inventory()
+
+    # Special way to profit 😉
+    if 'minstrel' in inventory:
+        print("\nThe minstrel starts singing... and people throw money at you! You gain 50 gold!")
+        gold += 50
+        print(f"New gold balance: {gold}")
+
+shopping()
+
+
+
+
+
