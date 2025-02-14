@@ -23,3 +23,9 @@ with open("friends.csv","r") as f:
         name = friend[0]
         year = int(friend[1].strip())
     print(f"in 2030 {name} will be {2030 - year} years old")
+    
+
+
+with open("movies.txt", "r") as f:
+    for line in f.readlines():
+        print(line)
