@@ -4,7 +4,7 @@ try:
 except ZeroDivisionError as err:
     print(err,"You cant divide by zero")
     
-except ValueError:
+except ValueError as err:
     print("Bad value!")
 
 
