@@ -1,8 +1,17 @@
-num = int(input("Enter a number: "))
-print("30 divided by", num, "is:",30/num)
+try:
+    num = int(input("Enter a number: "))
+    print("30 divided by", num, "is:",30/num)
+except ZeroDivisionError as err:
+    print(err,"You cant divide by zero")
+    
+except ValueError:
+    print("Bad value!")
+
+
+except:
+    print("Invalid input")
+
 print("** thank you for playing")
-
-
 
 # try:
     # code you want to run
