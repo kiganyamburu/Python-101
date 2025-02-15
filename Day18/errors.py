@@ -10,6 +10,8 @@ except ValueError as err:
 
 except:
     print("Invalid input")
+else:
+    print("30 divided by", num, "is:", 30/num)    
 
 print("** thank you for playing")
 
