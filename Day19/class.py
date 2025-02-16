@@ -22,4 +22,6 @@ film_1 = Movie("Life of brian", 1979,8.1, True)
 film_2 = Movie("The Holy Grail", 1975,8.2, True)
 
 films = [film_1, film_2]
+print(films[1].title,films[0].title)
+films[0].nice_print()
 
