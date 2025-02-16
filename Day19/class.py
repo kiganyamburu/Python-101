@@ -17,12 +17,9 @@ class Movie:
         print("Year of production: ",self.year)
         print("IMDB score: ",self.imdb_score)
         print("I have seen it: ",self.have_seen)
-        
-        
-        
-        
-        
+              
 film_1 = Movie("Life of brian", 1979,8.1, True)
 film_2 = Movie("The Holy Grail", 1975,8.2, True)
 
 print(film_1.title, film_1.imdb_score)
+film_2.nice_print()
