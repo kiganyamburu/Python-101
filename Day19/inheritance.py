@@ -14,5 +14,11 @@ class Fighter(Person):
     def move(self):
         print("move 6 paces")
         
+class Wizard(Doctor, Fighter):
+    def cast_spell(self):
+        print("Turns invisible")
+    def heal(self):
+        print("Heals 15 health points")
+        
 character1 = Fighter()
 character1.move()
