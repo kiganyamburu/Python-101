@@ -43,3 +43,5 @@ g = create_quad_func(1, -3, 2)  # Example of a different quadratic
 
 print(f(2))  # Output: 22 (2*2^2 + 4*2 + 6)
 print(g(2))  # Output: 0 (1*2^2 - 3*2 + 2)
+
+
