@@ -12,3 +12,4 @@ print(price_calc(1,25)(2))
 
 
 print(lambda a,b,c:a+b+c)(2,3,4)
+print(lambda a,b,c=2:a+b+c)(2,3,)
