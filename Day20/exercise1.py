@@ -12,3 +12,11 @@ def strip_spaces(str):
 
 strip_spaces1 = lambda str:" ".join(str.split(""))
 print(strip_spaces("monty python flaying circus"))
+
+
+
+# list 
+def loin_list_no_duplicates(list_a, list_b):
+    return list(set(list_a + list_b))
+list_a = [1,2,3,4]
+list_b = [3,4,5,6, 7]
