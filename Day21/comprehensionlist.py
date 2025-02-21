@@ -20,3 +20,7 @@ print(new_lists)
 
 new_lists = [num for num in numbers if num % 2 != 0]
 print(new_lists)
+
+# using a filter
+new_lists = filter(lambda num:num % 2 ==0, numbers)
+print(new_lists)
