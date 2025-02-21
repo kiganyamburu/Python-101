@@ -17,3 +17,6 @@ print(new_lists)
 
 new_lists = [num for num in numbers if num % 2 != 1]
 print(new_lists)
+
+new_lists = [num for num in numbers if num % 2 != 0]
+print(new_lists)
