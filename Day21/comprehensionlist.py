@@ -25,4 +25,10 @@ print(new_lists)
 new_lists = filter(lambda num:num % 2 ==0, numbers)
 print(new_lists)
 
+#  i want a (Letter, Num) pair for each letter in "spam" and each number "0123"
 
+new_lists = []
+for letter in "spam":
+    for num in range(4):
+        new_lists.append((letter,num))
+print(new_lists)
