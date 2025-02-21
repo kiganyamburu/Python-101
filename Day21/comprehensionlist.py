@@ -8,3 +8,5 @@ print(new_lists)
 
 new_lists = [num*num for num in numbers]
 print(new_lists)
+
+# give me a list with num for each num in numbers if num is even
