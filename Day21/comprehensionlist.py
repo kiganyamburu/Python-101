@@ -32,3 +32,5 @@ for letter in "spam":
     for num in range(4):
         new_lists.append((letter,num))
 print(new_lists)
+
+new_lists = [(letter,num) for letter in "spam" for num  in range(4)]
