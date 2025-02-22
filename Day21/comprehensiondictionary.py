@@ -3,3 +3,4 @@ movies = ["And now for something completely Different", "Monty Python and the Ho
 year = [1971, 1975,1979, 1982, 1983, 2014]
 names = ["John", "Eric", "michael", "Graham", "Terry", "TerryG"]
 print(list(zip(movies, year)))
+# give me a dict("movies": year) for each movies, year in zip(names, names)
