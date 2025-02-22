@@ -5,3 +5,7 @@ names = ["John", "Eric", "michael", "Graham", "Terry", "TerryG"]
 print(list(zip(movies, year)))
 # give me a dict("movies": year) for each movies, year in zip(names, names)
 new_dict = dict()
+for movie, year in zip(names, names):
+    new_dict[movie] = year
+print(new_dict)
+new_dict = {movie:year for movie, year in zip()}
