@@ -5,8 +5,8 @@ names = ["John", "Eric", "michael", "Graham", "Terry", "TerryG"]
 print(list(zip(movies, year)))
 # give me a dict("movies": year) for each movies, year in zip(names, names)
 new_dict = dict()
-for movie, year in zip(names, names):
-    new_dict[movie] = year
+for movie, yr in zip(names, names):
+    new_dict[movie] = yr
 print(new_dict)
-new_dict = {movie:year for movie, year in zip(movie, year)}
+new_dict = {movie:yr for movie, yr in zip(movie, year) if yr < 1983 and movie.startswith("monty")}
 print(new_dict)
