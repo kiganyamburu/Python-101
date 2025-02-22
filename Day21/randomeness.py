@@ -10,5 +10,9 @@ for i in range(5):
 for i in range(5):
     print(random.randint(1,6))
     # integers output 
+    
+    
+for i in range(5):
+    print(random.randrange(1,100,2))
 
 
