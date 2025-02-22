@@ -11,5 +11,5 @@ print(new_dict)
 new_dict = {movie:yr for movie, yr in zip(movie, year) if yr < 1983 and movie.startswith("monty")}
 print(new_dict)
 
-n1 = [(name, movie, yr) for name, movie, yr in zip(names, movies, year) if yr < 1981 and name]
+n1 = [[name + "s favorite movie was" + movie + " from " + str(yr)] for name, movie, yr in zip(names, movies, year) if yr < 1981 ]
 print(n1)
