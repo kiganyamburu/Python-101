@@ -1,1 +1,2 @@
-    n1)
+import random 
+print(random.random())
