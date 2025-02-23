@@ -4,8 +4,8 @@ def enigma_light():
     keys ="abcdefghijklmnopqrstuvwxyz"
 # autogenerate the values string by offsetting original string
     values = keys[-1] + keys[0:-1]
-    print(keys)
-    print(values)
+    # print(keys)
+    # print(values)
 # create two dictionaries
     dict_e = dict(zip(keys,values))
     dict_d = dict(zip(values, keys))
@@ -17,9 +17,9 @@ def enigma_light():
     mode = input("crypto mode:encode (e) or decode (d): ")
 # return result
     if mode == "e":
-        new_msg = [dict_e[letter] for letter in msg]
+        new_msg = "".join([dict_e[letter] for letter in msg])
     elif mode == "d":
-        new_msg = [dict_d[letter] for letter in msg]
+        new_msg = "".join([dict_d[letter] for letter in msg]) 
     return new_msg
     
 # clean and beautify the code 
