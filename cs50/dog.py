@@ -1,6 +1,8 @@
 # 🐾 Dog Bus Tracker — Challenge Steps
-#
+
 # 1. Start with a bus dictionary holding current passengers.
+
+
 #    - Each seat number (1, 2, 3, ...) is a key
 #    - Each value is another dictionary with each pet's:
 #        • name
